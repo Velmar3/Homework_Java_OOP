@@ -32,7 +32,7 @@ public class HotDrinkMachine implements VendingMachine {
 
     @Override
     public void deliveryOfChange() {
-        System.out.println("Заберите вашу сдачу!" );
+        System.out.println("Заберите вашу сдачу!");
     }
 
     public void shopHotDrinks() {

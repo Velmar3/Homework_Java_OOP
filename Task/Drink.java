@@ -1,11 +1,11 @@
 package Task;
 
 public class Drink {
-    
+
     private String drink;
     private double volume;
     private Boolean sugar;
-    
+
     public Drink(String drink, double volume, Boolean sugar) {
         this.drink = drink;
         this.volume = volume;
@@ -24,5 +24,4 @@ public class Drink {
         return sugar;
     }
 
-    
 }

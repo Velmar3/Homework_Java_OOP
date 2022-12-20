@@ -1,11 +1,9 @@
 package Task;
 
-public class HotDrinks extends Drink{
-    
+public class HotDrinks extends Drink {
+
     int temperature;
     int price;
-    
-    
 
     public HotDrinks(String drink, double volume, Boolean sugar, int temperature, int price) {
         super(drink, volume, sugar);
@@ -17,20 +15,14 @@ public class HotDrinks extends Drink{
         return temperature;
     }
 
-
-
     public int getPrice() {
         return price;
     }
 
-
     @Override
     public String toString() {
-        return "\n\ndrink = " + super.getDrink() + "\nvolume = " + super.getVolume() + "\nsugar = " + super.getSugar() + "\ntemperature = " + temperature + "\nprice = " + price ;
+        return "\n\ndrink = " + super.getDrink() + "\nvolume = " + super.getVolume() + "\nsugar = " + super.getSugar()
+                + "\ntemperature = " + temperature + "\nprice = " + price;
     }
-
-
-
-    
 
 }
